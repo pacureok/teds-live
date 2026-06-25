@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Teds Live - Estimador de Vida</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Teds Live: Test de Esperanza</h1>
+        <div id="content">
+            <div id="location-check">Verificando ubicación y datos de seguridad...</div>
+            <div id="error-zone" class="hidden">
+                <img id="error-img" src="https://github.com/pacureok/teds-live/blob/main/source.gif?raw=true" alt="Error">
+            </div>
+            <div id="test-form" class="hidden">
+                <p>La privacidad es clave: <b>Los datos no se guardan.</b> Puedes ver el código en <a href="https://github.com/pacureok/teds-live" target="_blank">GitHub</a>.</p>
+                <button onclick="calcularResultado()">Calcular Esperanza de Vida</button>
+            </div>
+            <div id="resultado"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
